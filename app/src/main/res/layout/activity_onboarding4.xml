@@ -6,40 +6,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".onboarding3">
+    tools:context=".onboarding4">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="557dp"
-        android:layout_height="487dp"
+        android:id="@+id/imageView8"
+        android:layout_width="631dp"
+        android:layout_height="472dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/onboard3" />
+        app:srcCompat="@drawable/onboard4" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:text="Eat Well"
+        android:text="Improve Sleep \nQuality"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="328dp"
-        android:layout_height="106dp"
-        android:text="Let's start a healthy lifestyle with us, we can determine your diet every day. healthy eating is fun"
+        android:layout_height="80dp"
+        android:text="Improve the quality of your sleep with us, good quality sleep can bring a good mood in the morning"
         android:textColor="#888484"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,17 +48,17 @@
         app:layout_constraintHorizontal_bias="0.385"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
+        app:layout_constraintVertical_bias="0.84" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintHorizontal_bias="0.905"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.962"
-        app:srcCompat="@drawable/onboard3_button" />
+        app:srcCompat="@drawable/onboard4_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
